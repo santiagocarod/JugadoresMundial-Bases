@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="BasesFinalPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Mundo.Jugador</class>
+    <class>Mundo.Fase</class>
+    <class>Mundo.Equipo</class>
+    <class>Mundo.PartidosJueces</class>
+    <class>Mundo.Usuarios</class>
+    <class>Mundo.Anotaciones</class>
+    <class>Mundo.Efectivo</class>
+    <class>Mundo.Juezpartidos</class>
+    <class>Mundo.Precio</class>
+    <class>Mundo.Tarjetacredito</class>
+    <class>Mundo.Pais</class>
+    <class>Mundo.Sillas</class>
+    <class>Mundo.Alineaciones</class>
+    <class>Mundo.Cuentas</class>
+    <class>Mundo.Tarjeta</class>
+    <class>Mundo.Estadio</class>
+    <class>Mundo.Categorias</class>
+    <class>Mundo.Boleteria</class>
+    <class>Mundo.Staff</class>
+    <class>Mundo.Anotacionxpartido</class>
+    <class>Mundo.Tarjetaspartido</class>
+    <class>Mundo.Pago</class>
+    <class>Mundo.Partidos</class>
+    <class>Mundo.Oficinas</class>
+    <class>Mundo.Juez</class>
+    <class>Mundo.Clientes</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@orion.javeriana.edu.co:1521:PUJDB"/>
+      <property name="javax.persistence.jdbc.user" value="is174618"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="1z5cz6JnyW"/>
+      <property name="eclipselink.logging.level" value="FINE"/>
+      <property name="eclipselink.logging.parameters" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
